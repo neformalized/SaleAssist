@@ -12,10 +12,7 @@ class Conversator:
         
         # setup client by api key from file
         
-        with open("/content/SaleAssist/api.txt", "r", encoding = "utf-8") as file:
-            
-            self.ai = openai.OpenAI(api_key = file.readline())
-        #
+        self.ai = openai.OpenAI(api_key = "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")
         
         # set system info from file
         
