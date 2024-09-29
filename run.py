@@ -12,7 +12,7 @@ class Conversator:
         
         # setup client by api key from file
         
-        self.ai = openai.OpenAI(api_key = "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")
+        self.ai = openai.OpenAI(api_key = "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")
         
         # set system info from file
         
