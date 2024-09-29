@@ -24,7 +24,7 @@ class Conversator:
             key += file.readline()
         #
         
-        openai.OpenAI(api_key = key)
+        self.ai = openai.OpenAI(api_key = key)
         
         # set system info from file
         
